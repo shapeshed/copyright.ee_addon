@@ -1,7 +1,7 @@
 # Copyright - Shows a copyright notice in ExpressionEngine Templates
 
-**Author**: [George Ornbo][]
-**Source Code**: [Github][]
+* **Author**: [George Ornbo][]
+* **Source Code**: [Github][]
 
 ## Compatibility
 
@@ -34,9 +34,7 @@ The plugin returns a string for displaying a copyright notices in ExpressionEngi
 
 	{exp:copyright:show}
 	
-Gives
-
-	&copy; 2009
+Gives &copy; 2009
 
 ## Parameters ##
 
