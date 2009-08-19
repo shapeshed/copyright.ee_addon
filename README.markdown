@@ -1,4 +1,4 @@
-# Human Filesize - Shows the size of a file in human readable format
+# Copyright - Shows a copyright notice in ExpressionEngine Templates
 
 **Author**: [George Ornbo][]
 **Source Code**: [Github][]
@@ -12,7 +12,7 @@
 
 Copyright is free for personal and commercial use. 
 
-If you use it commercially use a donation of $5 is suggested. You can send [donations here](http://pledgie.org/campaigns/2898). 
+If you use it commercially use a donation of $5 is suggested. You can send [donations here](http://pledgie.com/campaigns/5741). 
 
 Copyright is licensed under a [Open Source Initiative - BSD License][] license.
 
@@ -30,9 +30,13 @@ Shows a copyright notice in ExpressionEngine Templates
 
 ## Description
 
-The plugin returns a string for display in ExpressionEngine templates
+The plugin returns a string for displaying a copyright notices in ExpressionEngine templates
 
 	{exp:copyright:show}
+	
+Gives
+
+	&copy; 2009
 
 ## Parameters ##
 
@@ -52,13 +56,13 @@ Sets the end date. Default - current year
 
 	delimiter=""
 	
-Sets the delimiter between two years. Default - the "-" symbol (&ndash;)
+Sets the delimiter between two years. Default - the "&ndash;" symbol
 
 ### Copyright symbol ###
 
 	copyright_symbol=""
 	
-Sets the copyright symbol. Default - the "©" symbol (&copy;)
+Sets the copyright symbol. Default - the "&copy;"
 	
 ## Examples
 
@@ -68,11 +72,11 @@ Outputs a copyright symbol and current year. e.g. &copy; 2009
 
 	{exp:copyright:show start_year="2007"}
 	
-Outputs a copyright symbol starting from the start year up to the current year. e.g. &copy; 2007 &ndash; 2009
+Outputs a copyright symbol starting from the start year up to the current year. e.g. &copy; 2007&ndash;2009
 
 	{exp:copyright:show start_year="2007" end_year="2014"}
 
-Outputs a copyright symbol starting from the start year up to the given end year. e.g. &copy; 2007 &ndash; 2014	
+Outputs a copyright symbol starting from the start year up to the given end year. e.g. &copy; 2007&ndash;2014	
 
 	{exp:copyright:show copyright_symbol="anything"}
 
