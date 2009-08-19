@@ -30,7 +30,7 @@ Shows a copyright notice in ExpressionEngine Templates
 
 ## Description
 
-The plugin returns a string for displaying a copyright notices in ExpressionEngine templates
+The plugin returns a string for displaying a copyright notice in ExpressionEngine templates
 
 	{exp:copyright:show}
 	
