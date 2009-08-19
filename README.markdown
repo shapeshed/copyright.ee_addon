@@ -60,7 +60,7 @@ Sets the delimiter between two years. Default - the "&ndash;" symbol
 
 	copyright_symbol=""
 	
-Sets the copyright symbol. Default - the "&copy;"
+Sets the copyright symbol. Default - the "&copy;" symbol
 	
 ## Examples
 
