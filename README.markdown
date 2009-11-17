@@ -5,7 +5,7 @@
 
 ## Compatibility
 
-* ExpressionEngine Version 1.6.x
+* ExpressionEngine Version 1.6.x (1.x.x releases), ExpressionEngine Version 2.0.x (2.x.x releases)
 * PHP 5.x
 
 ## License
@@ -18,7 +18,9 @@ Copyright is licensed under a [Open Source Initiative - BSD License][] license.
 
 ## Installation
 
-This file pi.copyright.php must be placed in the /system/plugins/ folder in your [ExpressionEngine][] installation.
+For EE 1.6.x the file pi.copyright.php must be placed in the /system/plugins/ folder in your [ExpressionEngine][] installation.
+
+For EE 2.0.0 the copyright folder must be placed in the /system/expressionengine/third_party/ folder in your [ExpressionEngine][] installation.
 
 ## Name
 
